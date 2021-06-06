@@ -1,0 +1,126 @@
+.header {
+    background-image: url("../alcherstream/resource/bg.png");
+    width: 100%;
+    height: 100%;
+
+  }
+  .logo {
+    position: absolute;
+    left: 5%;
+    top: 25px;
+    
+  }
+  .profile {
+    position: absolute;
+    right: 5%;
+    top: 30px;
+    
+  }
+  .p1 {
+    position: absolute;
+    align-self: center;
+    top: 100px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    font-size: 60px;
+    padding-top: 150px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+    padding-left: 300px;
+    text-transform: uppercase;
+    text-align: center;
+}
+  .button2 {position: absolute;
+    left: 40%;
+    top: 60%;
+    font-family: Poppins, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(157, 211, 184);
+
+  }
+  .button {
+    
+    background-color: #68b46b; /* Green */
+    border: none;
+    
+    padding: 12px 20px 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 45px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px
+  }
+  
+  .button1 {
+    left: 50%;
+    top: 60%;
+    background-color: rgb(238, 41, 140); 
+    color: rgb(255, 253, 253); 
+    border: 2px solid #d32576;
+    font-weight: lighter;
+  }
+  .button1:hover {
+    background-color: #43bd53;
+    color: rgb(8, 8, 6);
+  }
+  .search {
+    position: absolute;
+    top: 25px;
+    right:10%;
+    max-width:600px;
+     
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid rgb(179, 179, 179);
+    float: left;
+    width: 400px;
+    background: #2b2828;
+    
+    color: azure;
+    size: 500px;
+  }
+  
+  form.example button {
+    float: left;
+    width: 50px;
+    padding: 10px;
+    background: #f17848;
+    color: white;
+    font-size: 17px;
+    border: 1px solid rgb(184, 174, 174);
+    border-left: none;
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #094474;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .heading{
+      font-family: Poppins, Helvetica, sans-serif;
+      font-size: 50px;
+      margin: 10px 40px;
+  }
+  .footer {
+    position:static;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(80, 79, 79);
+    color: white;
+    text-align: center;
+ }
+ 
